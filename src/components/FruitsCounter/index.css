@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image {
+  height: 400px;
+  width: 300px;
+}
+.mangoes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.bananas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+span {
+  color: #ffd569;
+}
